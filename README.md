@@ -22,8 +22,17 @@ Copied from My **"Yahoo Open Hack Day"** project. (2012 in Taiwan)
 	* file: yboss_place_spotter.php
 	* usage: boss_place_spotter($content, $lang = 'en-US', $isHtml = false, $confidence = 8)
 	* see [Web Service Spec](http://developer.yahoo.com/boss/geo/docs/placespotter_webservice.html)
-	* it requires oauth.inc
-	
+	* it requires oauth.inc	
+
 5. [YQL](http://developer.yahoo.com/yql/)
 	* file: yql.php
-	* usage: yql($query)
+	* usage: yql($query)	
+
+6. [PhantomJS - Screenshot script](http://phantomjs.org)
+	* file: phantomjs/screenshot.js
+	* phantomjs screenshot.js $vh $vw $agent $url $imgPath
+	* params: 
+		* $vh $vw - viewport height & width
+		* $agent - browser user agent
+		* $url - $url to screenshot
+		* $imgPath - image save target
